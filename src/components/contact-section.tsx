@@ -42,7 +42,7 @@ export function ContactSection() {
           <dl className="mt-10 space-y-6 text-sm">
             <div>
               <dt className="eyebrow">Email</dt>
-              <dd className="mt-1 text-foreground">hello@eleanorwilde.com</dd>
+              <dd className="mt-1 text-foreground">orders@thecasoegroup.org</dd>
             </div>
             <div>
               <dt className="eyebrow">Telephone</dt>
