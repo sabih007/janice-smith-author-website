@@ -1,9 +1,9 @@
-import gettingSoberCover from "@/assets/getting-sober-cover.jpg.asset.json";
+import gettingSoberCover from "@/assets/getting-sober-cover.jpg";
 import play1 from "@/assets/book-1.jpg";
-import meetingJesusPoster from "@/assets/meeting-jesus-poster.jpg.asset.json";
+import meetingJesusPoster from "@/assets/meeting-jesus-poster.jpg";
 import play3 from "@/assets/book-3.jpg";
-import tomorrowPlaybill from "@/assets/tomorrow-playbill.jpg.asset.json";
-import hutchinsonPlaybill from "@/assets/hutchinson-playbill.jpg.asset.json";
+import tomorrowPlaybill from "@/assets/tomorrow-playbill.jpg";
+import hutchinsonPlaybill from "@/assets/hutchinson-playbill.jpg";
 
 
 export type Book = {
@@ -23,7 +23,7 @@ export const books: Book[] = [
     released: "Out now",
     description:
       "On a rain-slicked corner where the liquor store light meets the church steeple, one woman's reckoning with addiction becomes a story about grace, memory, and the long walk back to herself.",
-    cover: gettingSoberCover.url,
+    cover: gettingSoberCover,
   },
   {
     id: "a-dream-that-never-sleeps",
@@ -41,7 +41,7 @@ export const books: Book[] = [
     released: "CASOE Youth Theater",
     description:
       "A faith-rooted drama set in the ordinary afternoon hours, where an unremarkable appointment becomes the turning point of a life. Staged by CASOE Youth Theater at the Charles H. Wright Museum of African American History, Detroit.",
-    cover: meetingJesusPoster.url,
+    cover: meetingJesusPoster,
   },
   {
     id: "aint-nobody-stoppin-this-train",
@@ -59,7 +59,7 @@ export const books: Book[] = [
     released: "CASOE Youth Theater, Detroit",
     description:
       "Written and directed by Janice Smith for CASOE Youth Theater — a story of young people standing at the water's edge of their own futures, and the crossing they make together.",
-    cover: tomorrowPlaybill.url,
+    cover: tomorrowPlaybill,
   },
   {
     id: "the-boy-from-hutchinson-street",
@@ -68,7 +68,7 @@ export const books: Book[] = [
     released: "CASOE Theater Company",
     description:
       "A Detroit coming-of-age story staged by CASOE Theater Company's Creative Performing Arts program, written by Janice Smith.",
-    cover: hutchinsonPlaybill.url,
+    cover: hutchinsonPlaybill,
   },
 ];
 

@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import authorPortraitAsset from "@/assets/janice-smith-portrait.jpg.asset.json";
+import authorPortrait from "@/assets/janice-smith-portrait.jpg";
 import readingRoom from "@/assets/reading-room.jpg";
 import heroStudy from "@/assets/hero-study.jpg";
 import { SiteHeader } from "@/components/site-header";
@@ -65,7 +65,7 @@ function About() {
           <div className="mx-auto grid w-full max-w-7xl items-start gap-16 px-6 lg:grid-cols-[0.85fr_1fr]">
             <div data-reveal className="reveal-left zoom-frame rounded-2xl shadow-lift">
               <img
-                src={authorPortraitAsset.url}
+                src={authorPortrait}
                 alt="Portrait of author Janice Smith"
                 loading="lazy"
                 width={1024}

@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import heroStudy from "@/assets/hero-study.jpg";
-import authorPortraitAsset from "@/assets/janice-smith-portrait.jpg.asset.json";
+import authorPortrait from "@/assets/janice-smith-portrait.jpg";
 import readingRoom from "@/assets/reading-room.jpg";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
@@ -171,7 +171,7 @@ function Home() {
 
             <div data-reveal className="reveal-left zoom-frame order-1 rounded-2xl shadow-lift lg:order-2">
               <img
-                src={authorPortraitAsset.url}
+                src={authorPortrait}
                 alt="Portrait of author Janice Smith"
                 loading="lazy"
                 width={1024}
